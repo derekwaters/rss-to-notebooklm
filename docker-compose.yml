@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  rss-to-notebooklm:
+    build: .
+    container_name: rss-to-notebooklm
+    volumes:
+      # Mount config file
+      - ./config.yaml:/app/config.yaml:ro
+      # Mount credentials file
+      - ./credentials.json:/app/credentials.json:ro
+      # Mount state file directory for persistence
+      - ./data:/app/data
+      # Mount token file for persistence (if exists)
+      - ./.token.pickle:/app/.token.pickle
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Run in continuous mode
+    command: python main.py --config config.yaml --continuous
+    restart: unless-stopped

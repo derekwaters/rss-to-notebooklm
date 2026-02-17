@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Tech Blog</title>
+    <link>https://example.com</link>
+    <description>A sample RSS feed for testing</description>
+    <item>
+      <title>Introduction to Python Programming</title>
+      <link>https://example.com/python-intro</link>
+      <guid>https://example.com/python-intro</guid>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+      <description>Learn the basics of Python programming language.</description>
+    </item>
+    <item>
+      <title>Advanced JavaScript Techniques</title>
+      <link>https://example.com/js-advanced</link>
+      <guid>https://example.com/js-advanced</guid>
+      <pubDate>Tue, 02 Jan 2024 12:00:00 GMT</pubDate>
+      <description>Explore advanced JavaScript patterns and techniques.</description>
+    </item>
+    <item>
+      <title>Python Web Development with Flask</title>
+      <link>https://example.com/python-flask</link>
+      <guid>https://example.com/python-flask</guid>
+      <pubDate>Wed, 03 Jan 2024 12:00:00 GMT</pubDate>
+      <description>Build web applications using Python and Flask framework.</description>
+    </item>
+    <item>
+      <title>Machine Learning Basics</title>
+      <link>https://example.com/ml-basics</link>
+      <guid>https://example.com/ml-basics</guid>
+      <pubDate>Thu, 04 Jan 2024 12:00:00 GMT</pubDate>
+      <description>An introduction to machine learning concepts and algorithms.</description>
+    </item>
+  </channel>
+</rss>

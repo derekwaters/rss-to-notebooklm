@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI News Feed</title>
+    <link>https://example.com/ai-news</link>
+    <description>Latest news about artificial intelligence</description>
+    <item>
+      <title>New Breakthrough in AI Research</title>
+      <link>https://example.com/ai-breakthrough</link>
+      <guid>https://example.com/ai-breakthrough</guid>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+      <description>Scientists announce major AI breakthrough in natural language processing.</description>
+    </item>
+    <item>
+      <title>Tech Industry Updates</title>
+      <link>https://example.com/tech-updates</link>
+      <guid>https://example.com/tech-updates</guid>
+      <pubDate>Tue, 02 Jan 2024 12:00:00 GMT</pubDate>
+      <description>Latest updates from the technology industry.</description>
+    </item>
+    <item>
+      <title>AI Ethics and Governance</title>
+      <link>https://example.com/ai-ethics</link>
+      <guid>https://example.com/ai-ethics</guid>
+      <pubDate>Wed, 03 Jan 2024 12:00:00 GMT</pubDate>
+      <description>Discussion on ethical considerations in AI development and deployment.</description>
+    </item>
+  </channel>
+</rss>

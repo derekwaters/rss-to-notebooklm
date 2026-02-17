@@ -1,0 +1,33 @@
+# RSS to NotebookLM Configuration
+# Copy this file to config.yaml and update with your settings
+
+# Google Drive API Configuration
+google_drive:
+  # Path to your Google API credentials JSON file
+  credentials_file: "credentials.json"
+  # The ID of the Google Doc to append content to
+  document_id: "YOUR_GOOGLE_DOC_ID"
+
+# RSS Feeds Configuration
+feeds:
+  # Example feed without filter (all items will be processed)
+  - url: "https://example.com/feed.xml"
+  
+  # Example feed with filter (only items containing "Python" will be processed)
+  - url: "https://example.com/tech-feed.xml"
+    filter: "Python"
+  
+  # Another example with filter
+  - url: "https://example.com/news-feed.xml"
+    filter: "AI"
+
+# Application Settings
+settings:
+  # How often to check feeds (in seconds). Only used if running as long-running process
+  check_interval: 3600  # 1 hour
+  
+  # State file to track processed articles
+  state_file: ".rss_state.json"
+  
+  # Maximum number of articles to process per run (0 = unlimited)
+  max_articles_per_run: 0
